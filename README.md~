@@ -9,9 +9,7 @@ A simple steganography tool to hide ASCII text files in wave files.
 	To bring up the help text, type "python3 wave_encode.py --help"
 	
 	- [Decoding a wavefile]
-	In terminal, navigate to this directory, then type "python3 wave_decode.py WAVEFILE OUTFILE" where WAVEFILE is a .wav file that has a message hidden in it, and OUTFILE is an empty text file.
-	
-	To bring up the help text, type " python3 wave_decode.py --help"
+	In terminal, navigate to this directory, then type type "python3
 	
 - [Running on Windows]
 Has not been tested yet, sorry. 
