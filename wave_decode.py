@@ -33,7 +33,10 @@ else:
 
     end_string = ''
     for i in byte_chunks:
-        end_string += chr(int(i, 2))
+        if int(i, 2) < 128 and int(i, 2) >= 32:
+            end_string += chr(int(i, 2))
+        else:
+            break
     
     # Dump 'end_string' to 'outfile'
     f = open(outfile, 'w')
