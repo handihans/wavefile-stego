@@ -80,7 +80,11 @@ else:
             if data[i] % 2 == int(bin_string[i]) % 2:
                 pass
             else:
-                data[i] += 1
+                # Prevents values in data from going out of range(0, 256) and causing ValueError with bytes()
+                if data[i] >= 255:
+                    data[i] -= 1
+                else:
+                    data[i] += 1
             
     data = bytes(data)
 
