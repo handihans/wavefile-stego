@@ -12,8 +12,8 @@ from sys import argv
 if argv[1] == '--help':
     print('Usage: python3 [SCRIPT] [TEXTFILE] [WAVEFILE]')
     print('[SCRIPT] is the name of this script')
-    print('TEXTFILE must be in ASCII format.')
-    print('WAVEFILE must be a .wav file.')
+    print('[TEXTFILE] must be in ASCII format.')
+    print('[WAVEFILE] must be a .wav file.')
     print()
     print('For a standard framerate of 22050, about 2726 characters')
     print('can be stored per second of sound')

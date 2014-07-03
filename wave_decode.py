@@ -6,8 +6,8 @@ from sys import argv
 if argv[1] == '--help':
     print('Usage: python3 [SCRIPT] [WAVEFILE] [OUTFILE]')
     print('[SCRIPT] is the name of this script')
-    print('WAVEFILE must be a .wav file.')
-    print('OUTFILE must be an empty textfile.')
+    print('[WAVEFILE] must be a .wav file.')
+    print('[OUTFILE] must be an empty textfile.')
     
 else:
     script, inwave, outfile = argv
