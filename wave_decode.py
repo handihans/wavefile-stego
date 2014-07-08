@@ -39,6 +39,7 @@ else:
     for i in range(int(len(byte_string) / 8)):
         byte_chunks.append(byte_string[i*8:i*8+8])
 
+    print('Processing bits...')
     end_string = ''
     for i in byte_chunks:
         if int(i, 2) < 256   and int(i, 2) >= 10:
